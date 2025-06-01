@@ -1,4 +1,17 @@
 /* Новые элементы должны добавляться в список по нажатию на Enter */
+const checkList = document.querySelector('.items');
+
+checkList.addEventListener('keydown', function() {
+    if (pushbutton == 'Enter' && text !== '') {
+        const li.document.createElement('li');
+        li.textContent = //не знаю что дальше//
+
+    }
+    Input.value = '';
+});
+li.addEventListener('click', function() {
+    li.classList.toggle('done');
+});
 
 /* Пустые элементы не должны добавляться */
 
