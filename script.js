@@ -1,5 +1,6 @@
 /* Новые элементы должны добавляться в список по нажатию на Enter */
 const checkList = document.querySelector('.input-wrapper');
+const point = document.querySelector('.items');
 
 checkList.addEventListener('keydown', function() {
     if (event.key == 'Enter' && text !== '') {
@@ -9,6 +10,7 @@ checkList.addEventListener('keydown', function() {
             li.classList.toggle('done');
         });
     }
+    point.append(li);
     Input.value = '';
 });
 
